@@ -1,0 +1,15 @@
+Download the image
+
+https://mega.nz/#!CXYXBQAK!6eLJSXvAfGnemqWpNbLQtOHBvtkCzA7-zycVjhHPYQQ 
+
+binwalk -e AGT.png
+
+cd into the extracted file
+
+ls -lart
+
+nano I Warned You.jpeg
+
+seach for flag 
+
+ABCTF{Du$t1nS_D0jo}
