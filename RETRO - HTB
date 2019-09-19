@@ -1,0 +1,35 @@
+Download the file from hack the box
+
+Unzip file and you will get a jpg.
+
+We need to binwalk this. binwalk -e .jpg
+
+In the extracted file you will see a wav file
+
+To decode this you need turgen. Open turgen on the terminal and use the code 
+
+java -jar turgen.jar
+
+here turgen will open.
+
+Then you will need to go into tools then turbo decoder
+
+Open your wav file and save to your choice of preference.
+
+Attach the decoder, make sure its set as universal decoder
+
+Also make sure monitor mode is ticked.
+
+Then once that is all set up you your ready.
+
+This can be played around a bit but try set your navigation to either low or high (this will depend on the file) I figured out working low works for this
+
+Then Decode until EOF, then change the navigation (low or high) than decode one file.
+
+Now hopefully you got the flag from that.
+
+And to check you should go to where the file was dowloaded to.
+
+And use strings.
+
+strings *./tm (because its a .tm file) and there should be the flag!!!
